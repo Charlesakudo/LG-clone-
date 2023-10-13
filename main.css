@@ -1,0 +1,253 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Header styles */
+/* Header styles */
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f00; /* Red color, customize as needed */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Slideshow animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 4s; /* Change slide duration as needed */
+}
+
+@keyframes fade {
+    0%, 100% { opacity: 0; }
+    20%, 80% { opacity: 1; }
+}
+
+
+.top-bar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* ... (previous CSS code) ... */
+
+/* Product section styles */
+.most-popular, .newest-products {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* Adjust for the number of columns you want */
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #777;
+}
+
+
+/* ... (previous CSS code) ... */
+
+/* About section styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 60%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 35%;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ... (rest of your CSS styles) ... */
+
+/* ... (rest of your CSS styles) ... */
+
+
+/* Add more styles for other sections and elements as needed */
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info, .social-media, .newsletter {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.contact-info h3,
+.social-media h3,
+.newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
